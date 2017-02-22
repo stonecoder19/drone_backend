@@ -19,5 +19,8 @@ from drone_app import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-     url(r'^location/$', views.LocationView.as_view()),
+    url(r'^location/$', views.LocationView.as_view()),
+    url(r'^dronedata/all$', views.DroneDataView.as_view()),
+    url(r'^dronedata/latest$', views.DroneDataLatestView.as_view()),
+
 ]

@@ -78,6 +78,9 @@ WSGI_APPLICATION = 'drone_backend.wsgi.application'
 
 SITE_ID = 1
 
+TIME_ZONE = 'US/Eastern'
+USE_TZ = False
+
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
